@@ -1,7 +1,6 @@
 package com.bot.telegram.commands;
 
 import org.telegram.telegrambots.meta.api.objects.commands.BotCommand;
-
 import java.util.List;
 
 public interface BotCommands {

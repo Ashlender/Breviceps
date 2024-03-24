@@ -27,7 +27,7 @@ public class BotInfo extends TelegramLongPollingBot {
             }
         }
     }
-
+    //TODO пофиксить команды у бота
     public void init() throws TelegramApiException {
     this.execute(new SetMyCommands(LIST_OF_COMMAND,new BotCommandScopeDefault(),null));
     }
