@@ -11,15 +11,10 @@ public class TelegramApplication {
 
     public static void main(String[] args){
         try {
-
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
             botsApi.registerBot(new BotInfo());
-
-
         }catch(TelegramApiException e){
         e.printStackTrace();
-
-
         }
         System.out.println("keep working... ");
     }
