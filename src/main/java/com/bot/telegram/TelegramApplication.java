@@ -16,6 +16,5 @@ public class TelegramApplication {
         }catch(TelegramApiException e){
         e.printStackTrace();
         }
-        System.out.println("keep working... ");
     }
 }

@@ -7,6 +7,10 @@ import java.util.List;
 
 public class BotButtons {
     public static InlineKeyboardMarkup keyboardMarkup(){
+
+        //todo добавить кнопки и дополнительную клавитатуру
+
+
         InlineKeyboardMarkup markupKeyboard = new InlineKeyboardMarkup();
         // список строк
         List<List<InlineKeyboardButton>> keyboard = new ArrayList<>();
